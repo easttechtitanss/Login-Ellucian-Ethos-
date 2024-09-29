@@ -1,0 +1,169 @@
+/* Frutiger Condensed */
+@font-face {
+	font-family: "FrutigerCondensed";
+	src: url("https://bigtreeint.cord.edu/fonts/e5b1a25e-0d2b-4aec-8672-da21553f205d.eot?#iefix");
+	src: url("https://bigtreeint.cord.edu/fonts/e5b1a25e-0d2b-4aec-8672-da21553f205d.eot?#iefix") format("eot"),
+	url("https://bigtreeint.cord.edu/fonts/e59898b4-93a8-4df7-885a-7806f9f0604d.woff") format("woff"),
+	url("https://bigtreeint.cord.edu/fonts/85928e7e-2ace-4f1d-be54-b11c333a8d97.ttf") format("truetype"),
+	url("https://bigtreeint.cord.edu/fonts/89390d0d-7a62-493d-9e77-9c162a709520.svg#89390d0d-7a62-493d-9e77-9c162a709520") format("svg");
+	font-weight: 200;
+	font-style: normal;
+}
+@font-face {
+	font-family: "FrutigerCondensed";
+	src: url("https://bigtreeint.cord.edu/fonts/a3a15351-8e3c-4c29-82e6-15b106c2181f.eot?#iefix");
+	src: url("https://bigtreeint.cord.edu/fonts/a3a15351-8e3c-4c29-82e6-15b106c2181f.eot?#iefix") format("eot"),
+	url("https://bigtreeint.cord.edu/fonts/f1f95a55-f0c6-4fb5-8939-b93160b7a751.woff") format("woff"),
+	url("https://bigtreeint.cord.edu/fonts/032fd83c-fe79-47fa-9dda-0a3f03bd0506.ttf") format("truetype"),
+	url("https://bigtreeint.cord.edu/fonts/17f04727-b70e-460f-8b5c-c8cd21771240.svg#17f04727-b70e-460f-8b5c-c8cd21771240") format("svg");
+	font-weight: 700;
+	font-style: normal;
+}
+
+body {
+	background: url(./campus.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.text-normal {
+	color: #000;
+	font-size: 18px;
+}
+
+.login-error {
+	margin-bottom: 8px;
+}
+
+.wrapper {
+	background-color: rgba(255,255,255,0.75);
+	padding: 30px;
+	border-radius: 4px;
+	position: relative;
+	margin: 10% auto;
+}
+
+.wrapper img {
+	max-height: 75px;
+	margin: 0 auto;
+}
+.wrapper .checkbox {
+	margin-top: 8px;
+}
+.form-group{
+	display: block !important;
+	margin: 10px auto;
+}
+.wrapper .checkbox input {
+	margin-right: 8px;
+}
+
+.wrapper .checkbox input[type="checkbox"] {
+	margin-left: 0;
+	position: relative;
+}
+
+.wrapper .btn {
+	background: #7c0041;
+	display: block;
+	color: #FFFFFF;
+	margin: 10px auto;
+	font-family: FrutigerCondensed, sans-serif;
+	font-weight: 700;
+	padding: 10px 30px;
+}
+
+.wrapper h1{
+	text-align: center;
+	font-family:FrutigerCondensed, sans-serif;
+	font-weight: 700;
+}
+
+.link-padding {
+	vertical-align: bottom;
+}
+
+.checkbox label {
+	padding-left: 0;
+}
+
+.checkbox{
+	text-align: center;
+}
+
+.login-error{
+	text-align: center;
+	margin-top: 10px;
+}
+.form-group{
+	text-align: center;
+}
+@media (min-width: 768px) {
+	.form-inline .form-control {
+		display: block;
+		width: auto;
+		vertical-align: middle;
+		margin: 0 auto;
+	}
+	.force-display-block {
+		display: block !important;
+	}
+	.link-padding {
+		margin-left: 15rem;
+	}
+	.checkbox label {
+		padding-left: 20px;
+	}
+	.wrapper .checkbox input[type="checkbox"] {
+		margin-left: 8px;
+	}
+}
+
+html[dir=rtl] .pull-right {
+	float: left !important;
+}
+
+html[dir=rtl] .pull-left {
+	float: right !important;
+}
+
+html[dir=rtl] .link-padding {
+	margin-right: 15rem;
+	margin-left: 0;
+}
+.action{
+	cursor: pointer;
+	color: #701c45;
+	font-family: FrutigerCondensed, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	padding: 0;
+	text-transform: uppercase;
+}
+.action:hover{
+	color: #8D2357;
+	text-decoration: none;
+}
+.login{
+	padding-top: 20px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 500px) {
+	.wrapper {
+		background-color: rgba(255,255,255,0.75);
+		padding: 30px;
+		border-radius: 4px;
+		position: absolute;
+		right: 50px;
+	}
+}
+
+@media (max-width: 767px) {
+	.visible-xs-inline-block {
+		display: block !important;
+	}
+}
